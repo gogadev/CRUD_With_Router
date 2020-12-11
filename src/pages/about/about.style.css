@@ -1,0 +1,15 @@
+.about {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.text {
+  width: 60vw;
+  text-align: justify;
+  margin: 1.5rem auto;
+  font-style: italic;
+  font-size: 0.9rem;
+}

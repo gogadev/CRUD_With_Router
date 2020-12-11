@@ -1,0 +1,19 @@
+.user {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.list {
+  width: 30vw;
+  margin: 1rem auto;
+  border: 1px solid lightgrey;
+  padding: 0.5rem;
+}
+
+.list-item {
+  margin: 0.6rem auto;
+  font-style: italic;
+  font-size: 1.1rem;
+}

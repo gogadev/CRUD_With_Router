@@ -1,0 +1,53 @@
+.contact {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.icon {
+  display: flex;
+  font-size: 1.8rem;
+}
+
+.form-group {
+  display: grid;
+}
+
+.form-group input {
+  width: 80vw;
+  border: none;
+  border-bottom: 1px solid lightgrey;
+  outline: lightgrey;
+}
+
+.form-group label {
+  font-size: 1.1rem;
+  color: grey;
+  margin: 0.5rem auto;
+}
+
+small {
+  margin: 0.5rem auto;
+  font-style: italic;
+  color: grey;
+}
+
+.submit-btn {
+  width: 30%;
+  margin: 2rem auto;
+  border: 1px solid lightgrey;
+  outline: 1px solid lightgrey;
+  outline-offset: -5px;
+  padding: 0.2rem;
+  font-size: 1.2rem;
+  color: grey;
+  letter-spacing: 1px;
+  transition: all 2s ease;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  outline-offset: 0;
+}

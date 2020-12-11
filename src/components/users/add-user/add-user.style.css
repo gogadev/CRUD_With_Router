@@ -1,0 +1,14 @@
+.add-user {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.form-group input {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0.4rem auto;
+  font-style: italic;
+}

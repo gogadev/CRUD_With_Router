@@ -1,0 +1,32 @@
+.home {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+.table {
+  margin: 1rem auto;
+  width: 60vw;
+}
+
+.homepage {
+  font-size: 1.1rem;
+}
+
+.btn-link {
+  opacity: 0.2;
+}
+
+.delete-btn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.icon > .MuiSvgIcon-root {
+  opacity: 0.3;
+  margin-top: 0.35rem;
+  margin-left: 0.3rem;
+}

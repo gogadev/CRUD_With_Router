@@ -1,0 +1,40 @@
+.nav-info {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.nav-info h1 {
+  text-transform: uppercase;
+  margin: 2rem auto;
+  font-size: 2.6rem;
+}
+
+.nav-info img {
+  width: 50%;
+  opacity: 0.2;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+  text-align: center;
+  margin: 2rem auto;
+  gap: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.link {
+  opacity: 0.8;
+  transition: all 2s ease;
+}
+
+.link-btn {
+  border: 1px solid lightgrey;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 1.6rem;
+  padding: 0.2rem;
+  color: grey;
+}
